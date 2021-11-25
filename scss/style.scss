@@ -286,6 +286,7 @@ header {
 main {
   @include flex-column;
   gap: 1em;
+  overflow: hidden;
 
   h1,
   h2 {
@@ -503,7 +504,6 @@ footer {
   }
 
   main {
-    overflow: hidden;
 
     $column-gap: 3em;
     $article-padding: 10vw;

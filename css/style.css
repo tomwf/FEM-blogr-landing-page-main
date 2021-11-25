@@ -232,6 +232,7 @@ main {
   display: flex;
   flex-direction: column;
   gap: 1em;
+  overflow: hidden;
 }
 main h1,
 main h2 {
@@ -410,9 +411,6 @@ footer .attribution {
     gap: 2em;
   }
 
-  main {
-    overflow: hidden;
-  }
   main section {
     padding: 10vw 0;
   }
