@@ -47,7 +47,7 @@ html {
 
 body {
   max-width: 1440px;
-  margin: auto;
+  margin: 0 auto;
 }
 
 button {
@@ -503,6 +503,7 @@ footer {
   }
 
   main {
+    overflow: hidden;
 
     $column-gap: 3em;
     $article-padding: 10vw;

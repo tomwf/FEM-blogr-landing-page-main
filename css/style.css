@@ -19,7 +19,7 @@ html {
 
 body {
   max-width: 1440px;
-  margin: auto;
+  margin: 0 auto;
 }
 
 button {
@@ -410,6 +410,9 @@ footer .attribution {
     gap: 2em;
   }
 
+  main {
+    overflow: hidden;
+  }
   main section {
     padding: 10vw 0;
   }
